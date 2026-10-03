@@ -1,32 +1,38 @@
 # peoplelens
 
-**An open-source HR analytics toolkit that turns messy HR exports from any company into trusted, tested metrics.**
+![tests](https://github.com/tollal/peoplelens/actions/workflows/tests.yml/badge.svg)
 
-Every company exports HR data differently, and every export is dirty. `peoplelens` puts one standard data model in the middle: you describe a company's file in a small YAML mapping, and the same quality checks and metric definitions run on top, unchanged.
+**Dağınık İK dosyalarını güvenilir, testli metriklere çeviren açık kaynaklı bir İK analitiği kütüphanesi.**
 
-> All data in this repository is **synthetic**. No real employee data is, or should ever be, committed here.
+Her şirket İK verisini farklı biçimde dışarı aktarır ve her dosya kirlidir. `peoplelens`, ortaya tek bir standart veri modeli koyar: bir şirketin dosyasını küçük bir YAML eşleme dosyasıyla tarif edersiniz; üstündeki kalite kontrolleri ve metrik tanımları ise hiç değişmeden çalışır.
 
-## How it works
+> Bu depodaki tüm veriler **sentetiktir**. Depoya gerçek çalışan verisi yüklenmemiştir ve yüklenmemelidir.
+
+## Nasıl çalışır
 
 ```
-Raw export (CSV / Excel)
-        |   YAML mapping (one per company)
+Ham dosya (CSV / Excel)
+        |   YAML eşleme dosyası (şirket başına bir tane)
         v
-  Canonical employee table   <- schema validation
+  Standart çalışan tablosu    <- şema doğrulama
         |
-        +--> Data quality engine   (14 checks, error / warning severity, quality score)
-        +--> Metric library        (headcount, FTE, hires, terminations, turnover)
+        +--> Veri kalitesi motoru   (14 kontrol, hata / uyarı, kalite skoru)
+        +--> Temel temizlik         (güvenli onarımlar, her adım raporlanır)
+        +--> Metrik kütüphanesi     (headcount, FTE, işe giriş, ayrılma, turnover)
+        +--> Elde tutma analizi     (Kaplan-Meier)
+        +--> Türkiye modülü         (kıdem / ihbar tazminatı, bilanço yükümlülüğü)
+        +--> Dashboard              (Streamlit)
 ```
 
-## What it looks like
+## Görünüm
 
 ![Headcount](docs/headcount_trend.png)
 ![Turnover](docs/turnover_by_department.png)
-![Data quality](docs/data_quality_report.png)
+![Veri kalitesi](docs/data_quality_report.png)
 
-The last chart comes from a file where errors were injected on purpose. The tests check that **every injected error is found, with the exact count**, and that a clean company produces zero false alarms.
+Son grafik, içine bilerek hata eklenmiş bir dosyadan geliyor. Testler, **eklenen her hatanın tam sayısıyla bulunduğunu** ve temiz bir şirkette sıfır yanlış alarm çıktığını doğrular. (Kontrol adları kodda İngilizce tutulmuştur.)
 
-## Quickstart
+## Hızlı başlangıç
 
 ```bash
 git clone https://github.com/tollal/peoplelens.git
@@ -41,26 +47,28 @@ from peoplelens.mapping import load_company
 from peoplelens.quality import run_checks, quality_score
 from peoplelens.metrics import turnover_by
 
-df, notes = load_company("examples/sirket_a_ham.csv", "examples/sirket_a.yaml")
+df, notlar = load_company("examples/sirket_a_ham.csv", "examples/sirket_a.yaml")
 print(quality_score(df, "2026-09-30"))
 print(run_checks(df, "2026-09-30"))
 print(turnover_by(df, "2025-10-01", "2026-09-30"))
 ```
 
-## Onboarding a new company
+## Yeni bir şirketi eklemek
 
-Copy `examples/sirket_a.yaml` and change the column names. The example handles a Turkish-style export: `;` separated, `dd.mm.yyyy` dates, `45.000,50` salaries, and local termination reasons (`İstifa`, `İşten Çıkarma`) mapped to `voluntary` / `involuntary`. Missing optional columns fall back to defaults, and every conversion is reported back as a note instead of failing silently.
+`examples/sirket_a.yaml` dosyasını kopyalayıp sütun adlarını değiştirmeniz yeterlidir. Örnek, Türkiye tarzı bir dışa aktarımı işler: noktalı virgülle ayrılmış alanlar, `gg.aa.yyyy` tarihler, `45.000,50` biçiminde maaşlar ve yerel çıkış nedenleri (`İstifa`, `İşten Çıkarma`) `voluntary` / `involuntary` olarak eşlenir. Dosyada olmayan isteğe bağlı sütunlar varsayılan değerle doldurulur ve yapılan her dönüşüm sessizce geçilmek yerine not olarak raporlanır.
 
-## Metric definitions
+Excel dosyaları için bir kez `uv add openpyxl` çalıştırmanız yeterlidir.
 
-Definitions live in the docstrings of `src/peoplelens/metrics.py` and are covered by tests.
+## Metrik tanımları
 
-- **Headcount**: employees active on a date. `termination_date` is the last working day and counts as active.
-- **Turnover rate**: terminations in the period / average headcount, where average = (opening + closing) / 2. Optional annualization and voluntary / involuntary split.
+Tanımlar `src/peoplelens/metrics.py` içindeki açıklamalarda yazılıdır ve testlerle korunur.
 
-## Turkey module
+- **Headcount:** Bir tarihte aktif çalışan sayısı. `termination_date` son çalışma günüdür ve o gün aktif sayılır.
+- **Turnover oranı:** Dönemdeki ayrılanlar / ortalama headcount. Ortalama = (dönem başı + dönem sonu) / 2. İsteğe bağlı yıllıklandırma ve gönüllü / gönülsüz ayrımı vardır.
 
-Severance (*kıdem tazminatı*) and notice (*ihbar tazminatı*) calculations, with the statutory ceiling table built in. It answers the CFO question "what would we owe if everyone left today?" per employee and per department.
+## Türkiye modülü
+
+Kıdem tazminatı ve ihbar tazminatı hesapları, yasal tavan tablosuyla birlikte gelir. "Herkes bugün işten ayrılsa ne ödememiz gerekir?" sorusunu çalışan ve departman bazında yanıtlar.
 
 ```python
 from peoplelens.turkey import severance_liability, liability_summary
@@ -70,11 +78,16 @@ print(liab["gross_liability"].sum())
 print(liability_summary(liab))
 ```
 
-Notes: the ceiling table lives in `turkey.py` and must be updated every January and July (dates outside the table raise an error instead of guessing). The liability is an upper bound, not an actuarial TMS 19 provision, and this is not legal advice.
+Notlar:
 
-## Retention analysis
+- Tavan tablosu `turkey.py` içindedir ve her Ocak ile Temmuz ayında güncellenmelidir. Tablodaki dönemlerin dışındaki tarihlerde kod tahmin yürütmek yerine hata verir.
+- Hesaplanan yükümlülük bir **üst sınırdır**; aktüeryal TMS 19 karşılığının yerine geçmez.
+- Maaş, giydirilmiş brüt ücret kabul edilir.
+- Bu modül hukuki danışmanlık değildir.
 
-Kaplan-Meier retention curves answer "what share of new hires is still here after 6, 12, 24 months?", by department. It is validated against the known true curve of the synthetic generator.
+## Elde tutma analizi
+
+Kaplan-Meier eğrileri, "işe girenlerin yüzde kaçı 6, 12 ve 24. ayda hâlâ şirkette?" sorusunu departman bazında yanıtlar. Yöntem, sentetik şirket üretecinin bilinen gerçek eğrisine karşı doğrulanmıştır.
 
 ```python
 from peoplelens.attrition import retention_table
@@ -82,29 +95,39 @@ from peoplelens.attrition import retention_table
 print(retention_table(df, "2026-09-30", cohort_start="2021-10-01"))
 ```
 
-Only people hired inside the analysis window are used, to avoid survivorship bias.
-## Privacy
+Hayatta kalma yanlılığını önlemek için yalnızca analiz penceresinin içinde işe girenler kullanılır.
 
-Real HR data is personal data. Keep it outside the repository (`data/` and `*.xlsx` are git-ignored) and follow your local regulations, such as KVKK in Turkey or GDPR in the EU.
+## Dashboard
 
-## Roadmap
+```bash
+uv sync --extra dashboard
+uv run streamlit run dashboard/app.py
+```
 
-- [x] Canonical schema and validation
-- [x] Synthetic company generator
-- [x] Data quality engine
-- [x] Core metrics
-- [x] Mapping engine (CSV / Excel to canonical)
-- [ ] Interactive dashboard
-- [x] Retention analysis (Kaplan-Meier survival curves)
-- [ ] Attrition prediction (explainable model)
-- [ ] Pay equity analysis
-- [x] Turkey module: severance (kıdem) and notice (ihbar) pay, balance-sheet liability
-- [ ] Turkey module: minimum wage impact
-- [ ] Privacy layer (minimum group size, anonymization)
+Dört sekme vardır: genel bakış (KPI'lar, aylık headcount, departman bazlı turnover), veri kalitesi (skor, bulunan sorunlar, temizlik adımları, temiz CSV indirme), elde tutma (Kaplan-Meier tablo ve eğriler) ve Türkiye kıdem modülü. Dahili sentetik şirketi kullanabilir ya da kendi dosyanızı bir eşleme YAML'ıyla birlikte yükleyebilirsiniz. Uygulama yerelde çalışır, yüklenen dosyalar bilgisayarınızdan çıkmaz. Ayarlanabilir minimum büyüklüğün altındaki gruplar gizlenir.
 
-## Türkçe özet
+## Gizlilik
 
-`peoplelens`, farklı şirketlerin dağınık İK dosyalarını tek bir standart modele çeviren, veri kalitesini ölçen ve testli İK metrikleri (headcount, turnover) hesaplayan açık kaynaklı bir Python kütüphanesidir. Her şirket için yalnızca bir YAML eşleme dosyası yazılır, geri kalan her şey aynı kalır. Depodaki tüm veriler sentetiktir. Kıdem tazminatı ve asgari ücret etkisi gibi Türkiye'ye özgü analizler yol haritasındadır.
+İK verisi kişisel veridir. Gerçek veriyi depo dışında tutun (`data/` klasörü ve `*.xlsx` dosyaları git tarafından yok sayılır) ve yerel mevzuata uyun (Türkiye'de KVKK, AB'de GDPR).
+
+## Yol haritası
+
+- [x] Standart şema ve doğrulama
+- [x] Sentetik şirket üreteci
+- [x] Veri kalitesi motoru
+- [x] Temel metrikler
+- [x] Eşleme motoru (CSV / Excel -> standart tablo)
+- [x] Temel temizlik
+- [x] Elde tutma analizi (Kaplan-Meier)
+- [x] Türkiye modülü: kıdem ve ihbar tazminatı, bilanço yükümlülüğü
+- [x] Etkileşimli dashboard (Streamlit)
+- [x] Minimum grup büyüklüğü kuralı (dashboard)
+- [ ] Ücret eşitliği analizi (pay equity)
+- [ ] Ayrılma tahmini (açıklanabilir model)
+- [ ] Türkiye modülü: asgari ücret etkisi
+- [ ] Anonimleştirme katmanı
+- [ ] Vaka çalışmaları
+- [ ] PyPI yayını
 
 ---
-Built by [Tolga](https://github.com/tollal).
+[Tolga](https://github.com/tollal) tarafından geliştirilmektedir.
