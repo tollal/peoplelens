@@ -97,3 +97,75 @@ def generate_company(
     df["hire_date"] = df["hire_date"].astype("datetime64[ns]")
     df["termination_date"] = df["termination_date"].astype("datetime64[ns]")
     return validate_employees(df[COLUMNS])
+
+def make_dirty(
+    df: pd.DataFrame, seed: int = 0, end_date: str = "2026-09-30"
+) -> tuple[pd.DataFrame, dict[str, int]]:
+    """Temiz tabloya bilerek hata ekler (veri kalitesi motorunu test etmek için).
+
+    Döndürür: (kirli_tablo, {kontrol_adı: eklenen_hata_sayısı}).
+    Hatalar farklı satırlara eklenir, böylece sayılar birebir kontrol edilebilir.
+    """
+    rng = np.random.default_rng(seed)
+    d = df.copy().reset_index(drop=True)
+    free = pd.Series(True, index=d.index)
+    terminated = d["termination_date"].notna()
+
+    def take(k: int, cond: pd.Series | None = None) -> pd.Index:
+        pool = d.index[free & (cond if cond is not None else True)]
+        chosen = pd.Index(rng.choice(pool, size=k, replace=False))
+        free.loc[chosen] = False
+        return chosen
+
+    injected: dict[str, int] = {}
+
+    idx = take(10)
+    d.loc[idx, "department"] = None
+    injected["missing_department"] = len(idx)
+
+    idx = take(15, d["department"].notna())
+    d.loc[idx, "department"] = d.loc[idx, "department"].str.lower()
+    injected["department_spelling_variants"] = len(idx)
+
+    idx = take(5)
+    d.loc[idx, "monthly_salary"] = -d.loc[idx, "monthly_salary"]
+    injected["salary_non_positive"] = len(idx)
+
+    idx = take(4)
+    d.loc[idx, "monthly_salary"] = d.loc[idx, "monthly_salary"] * 12
+    injected["salary_outlier"] = len(idx)
+
+    idx = take(6)
+    d.loc[idx, "fte"] = 1.5
+    injected["fte_out_of_range"] = len(idx)
+
+    idx = take(8, terminated)
+    d.loc[idx, "termination_date"] = d.loc[idx, "hire_date"] - pd.Timedelta(days=30)
+    injected["termination_before_hire"] = len(idx)
+
+    idx = take(7, terminated)
+    d.loc[idx, "termination_type"] = None
+    injected["terminated_without_type"] = len(idx)
+
+    idx = take(5, ~terminated)
+    d.loc[idx, "termination_type"] = "voluntary"
+    injected["type_without_termination_date"] = len(idx)
+
+    idx = take(6)
+    d.loc[idx, "manager_id"] = "E99999"
+    injected["manager_not_found"] = len(idx)
+
+    idx = take(3)
+    d.loc[idx, "manager_id"] = d.loc[idx, "employee_id"]
+    injected["self_manager"] = len(idx)
+
+    idx = take(4, ~terminated)
+    d.loc[idx, "hire_date"] = pd.Timestamp(end_date) + pd.Timedelta(days=60)
+    injected["future_hire_date"] = len(idx)
+
+    # Çift kayıt: temiz tablodan 10 satırın birebir kopyası sona eklenir
+    copies = df.sample(n=10, random_state=seed)
+    d = pd.concat([d, copies], ignore_index=True)
+    injected["duplicate_employee_id"] = len(copies)
+
+    return d, injected
