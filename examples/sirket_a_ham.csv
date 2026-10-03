@@ -1,0 +1,529 @@
+﻿Sicil No;İşe Giriş Tarihi;Çıkış Tarihi;Çıkış Nedeni;Departman;Unvan;Yönetici Sicil No;Brüt Maaş
+E00001;30.09.2018;30.01.2023;İşten Çıkarma;Sales;Senior Sales Representative;;61.600,00
+E00002;05.10.2018;;;Sales;Senior Sales Representative;;62.100,00
+E00003;19.10.2018;;;IT;Senior Software Engineer;;95.200,00
+E00004;03.11.2018;11.06.2023;İstifa;IT;Senior Software Engineer;;82.000,00
+E00005;09.11.2018;02.03.2024;İstifa;IT;Senior Software Engineer;;111.700,00
+E00006;21.11.2018;;;Operations;Senior Operations Specialist;;48.300,00
+E00007;08.12.2018;;;Finance;Senior Accountant;;78.500,00
+E00008;09.12.2018;04.08.2025;İstifa;Finance;Senior Accountant;;75.100,00
+E00009;10.12.2018;28.05.2026;İşten Çıkarma;Operations;Senior Operations Specialist;;49.600,00
+E00010;17.12.2018;;;HR;Senior HR Specialist;;872.400,00
+E00011;23.12.2018;;;Operations;Senior Operations Specialist;;61.000,00
+E00012;23.12.2018;11.08.2022;İstifa;;Specialist Software Engineer;;78.600,00
+E00013;04.01.2019;26.07.2023;İşten Çıkarma;Finance;Senior Accountant;;83.800,00
+E00014;09.01.2019;29.04.2022;İstifa;Sales;Specialist Sales Representative;;43.300,00
+E00015;14.01.2019;11.02.2022;İstifa;IT;Specialist Software Engineer;;73.200,00
+E00016;16.01.2019;;;Operations;Senior Operations Specialist;;45.400,00
+E00017;03.02.2019;;;HR;Senior HR Specialist;;68.600,00
+E00018;23.02.2019;15.06.2024;İşten Çıkarma;Finance;Senior Accountant;;83.200,00
+E00019;26.02.2019;05.01.2022;İstifa;Sales;Specialist Sales Representative;;48.800,00
+E00020;13.03.2019;04.08.2024;İstifa;Sales;Senior Sales Representative;;55.700,00
+E00021;29.03.2019;04.12.2022;İstifa;Marketing;Specialist Marketing Specialist;;42.400,00
+E00022;30.03.2019;02.10.2021;İşten Çıkarma;Finance;Specialist Accountant;E00008;68.100,00
+E00023;01.04.2019;;;Sales;Senior Sales Representative;;60.100,00
+E00024;04.04.2019;02.04.2025;İstifa;IT;Senior Software Engineer;;75.700,00
+E00025;06.04.2019;;;IT;Senior Software Engineer;E00004;79.500,00
+E00026;15.04.2019;30.09.2025;İstifa;IT;Senior Software Engineer;E00024;92.300,00
+E00027;07.05.2019;;;Operations;Senior Operations Specialist;;62.100,00
+E00028;09.05.2019;05.10.2021;İstifa;;Specialist Support Agent;;32.400,00
+E00029;26.05.2019;22.03.2023;İşten Çıkarma;HR;Specialist HR Specialist;E00010;56.100,00
+E00030;02.06.2019;24.01.2023;İstifa;Finance;Specialist Accountant;E00008;57.200,00
+E00031;09.06.2019;08.09.2023;İstifa;Sales;Senior Sales Representative;;67.500,00
+E00032;09.06.2019;20.07.2023;İstifa;Sales;Senior Sales Representative;;71.700,00
+E00033;19.06.2019;15.02.2023;İstifa;Customer Support;Specialist Support Agent;;30.900,00
+E00034;22.06.2019;03.06.2023;İstifa;Operations;Specialist Operations Specialist;;39.800,00
+E00035;24.06.2019;;;Sales;Senior Sales Representative;;60.800,00
+E00036;24.06.2019;;;IT;Senior Software Engineer;E00003;85.200,00
+E00037;30.07.2019;26.05.2022;İstifa;Operations;Specialist Operations Specialist;;41.600,00
+E00038;31.07.2019;29.05.2023;İstifa;Sales;Specialist Sales Representative;;41.200,00
+E00039;17.08.2019;26.07.2024;İstifa;IT;Senior Software Engineer;E00012;92.900,00
+E00040;17.08.2019;16.06.2022;İstifa;Operations;Specialist Operations Specialist;;34.900,00
+E00041;18.08.2019;;;Sales;Senior Sales Representative;E00035;63.000,00
+E00042;25.08.2019;;;Sales;Senior Sales Representative;E00038;59.700,00
+E00043;27.08.2019;25.04.2025;İstifa;Sales;Senior Sales Representative;E00001;72.600,00
+E00044;08.09.2019;;;HR;Senior HR Specialist;E00010;68.500,00
+E00045;22.09.2019;11.11.2021;İşten Çıkarma;Operations;Specialist Operations Specialist;E00034;38.700,00
+E00046;24.09.2019;11.01.2022;İstifa;Operations;Specialist Operations Specialist;E00027;46.700,00
+E00047;02.10.2019;09.07.2026;İstifa;Sales;Senior Sales Representative;E00031;44.900,00
+E00048;05.10.2019;;;Sales;Senior Sales Representative;E00032;55.600,00
+E00049;14.10.2019;;;Customer Support;Senior Support Agent;;32.500,00
+E00050;20.10.2019;20.09.2019;İşten Çıkarma;HR;Specialist HR Specialist;E00017;48.300,00
+E00051;23.10.2019;16.08.2023;İşten Çıkarma;Marketing;Specialist Marketing Specialist;;53.100,00
+E00052;31.10.2019;;;Sales;Senior Sales Representative;E00035;68.500,00
+E00053;04.11.2019;24.08.2026;İstifa;Sales;Senior Sales Representative;E00035;65.500,00
+E00054;26.11.2019;25.06.2022;İşten Çıkarma;Customer Support;Specialist Support Agent;;29.000,00
+E00055;07.12.2019;22.03.2023;İstifa;Customer Support;Specialist Support Agent;;39.700,00
+E00056;08.01.2020;27.09.2022;İstifa;Operations;Specialist Operations Specialist;E00006;39.600,00
+E00057;09.01.2020;12.01.2022;İstifa;Customer Support;Specialist Support Agent;;31.200,00
+E00058;10.01.2020;20.05.2024;İstifa;Customer Support;Senior Support Agent;;39.400,00
+E00059;18.01.2020;19.12.2019;İşten Çıkarma;IT;Specialist Software Engineer;E00003;68.700,00
+E00060;03.02.2020;15.09.2025;İstifa;IT;Senior Software Engineer;E00004;86.200,00
+E00061;09.02.2020;06.04.2025;İstifa;it;Senior Software Engineer;E00003;86.600,00
+E00062;10.02.2020;07.12.2021;İstifa;Customer Support;Specialist Support Agent;E00049;33.000,00
+E00063;26.02.2020;16.03.2024;İstifa;Operations;Senior Operations Specialist;E00009;54.800,00
+E00064;06.04.2020;28.05.2022;İstifa;Operations;Specialist Operations Specialist;E00006;-34.600,00
+E00065;10.04.2020;28.05.2023;İstifa;Sales;Specialist Sales Representative;E00031;52.500,00
+E00066;11.04.2020;;;Sales;Senior Sales Representative;E00019;56.100,00
+E00067;22.04.2020;;;Finance;Senior Accountant;E00007;67.600,00
+E00068;22.04.2020;23.03.2020;İstifa;Sales;Senior Sales Representative;E00032;65.600,00
+E00069;07.05.2020;11.05.2025;İstifa;IT;Senior Software Engineer;E00015;92.700,00
+E00070;15.05.2020;23.07.2022;İstifa;Sales;Specialist Sales Representative;E00014;45.500,00
+E00071;13.06.2020;;;Sales;Senior Sales Representative;E00020;60.200,00
+E00072;14.06.2020;27.02.2025;İşten Çıkarma;Customer Support;Senior Support Agent;E00049;45.200,00
+E00073;27.06.2020;13.12.2021;İstifa;Sales;Junior Sales Representative;E00023;33.700,00
+E00074;29.06.2020;12.04.2024;İstifa;Operations;Specialist Operations Specialist;E00006;31.300,00
+E00075;05.07.2020;;;Finance;Senior Accountant;E00008;84.300,00
+E00076;07.07.2020;;;Operations;Senior Operations Specialist;E00011;47.200,00
+E00077;29.11.2026;;;Customer Support;Senior Support Agent;E00049;43.700,00
+E00078;21.07.2020;;;Customer Support;Senior Support Agent;E00058;49.000,00
+E00079;23.07.2020;;;IT;Senior Software Engineer;E00003;91.500,00
+E00080;31.07.2020;;;Operations;Senior Operations Specialist;E00011;74.100,00
+E00081;01.08.2020;;;IT;Senior Software Engineer;E00004;77.100,00
+E00082;08.08.2020;19.08.2022;İstifa;Sales;Specialist Sales Representative;E00020;41.200,00
+E00083;11.08.2020;01.03.2025;İstifa;Sales;Senior Sales Representative;E00023;63.800,00
+E00084;16.09.2020;12.11.2021;İşten Çıkarma;Sales;Junior Sales Representative;E00032;42.500,00
+E00085;19.09.2020;05.12.2021;İstifa;Finance;Junior Accountant;E00008;42.800,00
+E00086;22.09.2020;19.10.2022;İstifa;Finance;Specialist Accountant;E00008;46.400,00
+E00087;27.09.2020;;;Sales;Senior Sales Representative;E00023;72.400,00
+E00088;27.09.2020;18.06.2022;İstifa;Sales;Specialist Sales Representative;E00002;40.400,00
+E00089;02.10.2020;09.04.2022;İşten Çıkarma;Sales;Specialist Sales Representative;E00020;44.000,00
+E00090;04.10.2020;;;Operations;Senior Operations Specialist;E00016;59.200,00
+E00091;09.10.2020;;;Operations;Senior Operations Specialist;E00006;49.200,00
+E00092;12.10.2020;30.08.2024;İstifa;sales;Specialist Sales Representative;E00001;42.700,00
+E00093;16.10.2020;30.05.2024;İstifa;Operations;Specialist Operations Specialist;E00009;40.400,00
+E00094;23.10.2020;07.03.2023;İşten Çıkarma;IT;Specialist Software Engineer;E00024;63.500,00
+E00095;29.10.2020;03.12.2021;İstifa;Operations;Junior Operations Specialist;E00037;31.500,00
+E00096;31.10.2020;03.03.2024;İstifa;Customer Support;Specialist Support Agent;E00055;28.600,00
+E00097;05.11.2020;;;sales;Senior Sales Representative;E00014;62.200,00
+E00098;08.11.2020;13.09.2024;İstifa;IT;Specialist Software Engineer;E00015;57.100,00
+E00099;19.11.2020;25.11.2025;;Finance;Senior Accountant;E00018;63.900,00
+E00100;22.11.2020;24.03.2022;İşten Çıkarma;Marketing;Junior Marketing Specialist;E00051;49.400,00
+E00101;25.11.2020;12.09.2022;İstifa;Sales;Specialist Sales Representative;E00038;47.600,00
+E00102;07.12.2020;22.11.2021;İstifa;Customer Support;Junior Support Agent;E00028;28.600,00
+E00103;10.12.2020;16.11.2024;İstifa;Sales;Specialist Sales Representative;E00032;40.100,00
+E00104;12.12.2020;;;Sales;Senior Sales Representative;E00019;62.800,00
+E00105;18.12.2020;;;Operations;Senior Operations Specialist;E00011;51.900,00
+E00106;20.12.2020;;;HR;Senior HR Specialist;E00017;56.700,00
+E00107;21.12.2020;03.02.2026;İstifa;Operations;Senior Operations Specialist;E00037;56.800,00
+E00108;24.12.2020;18.02.2026;İşten Çıkarma;Sales;Senior Sales Representative;E00019;57.800,00
+E00109;29.12.2020;;;Sales;Senior Sales Representative;E00023;61.500,00
+E00110;31.12.2020;16.12.2025;İstifa;Operations;Senior Operations Specialist;E00009;44.400,00
+E00111;01.01.2021;26.11.2022;İşten Çıkarma;Finance;Specialist Accountant;E00018;62.000,00
+E00112;18.01.2021;19.12.2020;İşten Çıkarma;Finance;Senior Accountant;E00013;84.400,00
+E00113;30.01.2021;09.06.2024;İstifa;Sales;Specialist Sales Representative;E00038;47.200,00
+E00114;07.02.2021;;;Customer Support;Senior Support Agent;E00057;40.200,00
+E00115;10.02.2021;;;Operations;Senior Operations Specialist;E00115;49.900,00
+E00116;13.02.2021;27.04.2022;İstifa;HR;Junior HR Specialist;E00017;44.500,00
+E00117;14.02.2021;11.08.2026;İstifa;Operations;Senior Operations Specialist;E00011;51.500,00
+E00118;22.02.2021;01.03.2025;;Operations;Senior Operations Specialist;E00016;55.000,00
+E00119;25.02.2021;20.09.2022;İstifa;it;Specialist Software Engineer;E00015;66.100,00
+E00120;26.02.2021;11.11.2024;İstifa;Customer Support;Specialist Support Agent;E00033;28.000,00
+E00121;11.03.2021;24.12.2022;İstifa;Customer Support;Specialist Support Agent;E00049;38.400,00
+E00122;29.11.2026;;;Finance;Senior Accountant;E00018;60.700,00
+E00123;19.03.2021;17.02.2021;İstifa;IT;Specialist Software Engineer;E00012;66.800,00
+E00124;21.03.2021;25.11.2024;İstifa;Sales;Specialist Sales Representative;E00019;44.600,00
+E00125;27.03.2021;27.02.2025;İstifa;IT;Specialist Software Engineer;E00012;53.600,00
+E00126;16.04.2021;20.08.2026;İstifa;Sales;Senior Sales Representative;E00019;65.600,00
+E00127;17.04.2021;;;IT;Senior Software Engineer;E99999;96.900,00
+E00128;24.04.2021;25.07.2024;İstifa;Customer Support;Specialist Support Agent;E00028;32.200,00
+E00129;02.05.2021;;;Finance;Senior Accountant;E00018;69.800,00
+E00130;05.05.2021;12.04.2024;İşten Çıkarma;Marketing;Specialist Marketing Specialist;E00021;52.800,00
+E00131;11.05.2021;09.01.2022;İstifa;IT;Junior Software Engineer;E00012;59.500,00
+E00132;17.05.2021;18.01.2022;İstifa;Sales;Junior Sales Representative;E00032;37.000,00
+E00133;17.05.2021;;;Customer Support;Senior Support Agent;E00054;55.100,00
+E00134;29.05.2021;15.12.2021;İstifa;customer support;Junior Support Agent;E00057;28.400,00
+E00135;03.06.2021;17.07.2025;İstifa;Sales;Senior Sales Representative;E00031;69.100,00
+E00136;04.06.2021;;;Sales;Senior Sales Representative;E00032;74.500,00
+E00137;09.06.2021;22.12.2022;İstifa;Sales;Specialist Sales Representative;E00002;41.600,00
+E00138;18.06.2021;;;Marketing;Senior Marketing Specialist;E00021;65.800,00
+E00139;01.07.2021;09.06.2024;İşten Çıkarma;Sales;Specialist Sales Representative;E00002;47.900,00
+E00140;09.07.2021;25.04.2025;İstifa;Sales;Specialist Sales Representative;E99999;47.900,00
+E00141;16.07.2021;27.01.2022;İşten Çıkarma;Customer Support;Junior Support Agent;E00055;30.700,00
+E00142;20.07.2021;11.03.2022;İstifa;Operations;Junior Operations Specialist;E00037;34.900,00
+E00143;24.07.2021;28.05.2022;İstifa;customer support;Junior Support Agent;E00058;26.200,00
+E00144;26.07.2021;05.12.2023;İşten Çıkarma;Operations;Specialist Operations Specialist;E00027;39.000,00
+E00145;29.07.2021;01.02.2023;İstifa;Operations;Specialist Operations Specialist;E00011;36.800,00
+E00146;04.08.2021;;;Sales;Senior Sales Representative;E00032;60.400,00
+E00147;11.08.2021;13.04.2023;İşten Çıkarma;Sales;Specialist Sales Representative;E00032;42.700,00
+E00148;13.08.2021;;;;Senior Sales Representative;E00019;70.300,00
+E00149;17.08.2021;;;IT;Senior Software Engineer;E00012;86.100,00
+E00150;27.08.2021;22.08.2023;İşten Çıkarma;Sales;Specialist Sales Representative;E00038;43.200,00
+E00151;27.08.2021;21.12.2021;İşten Çıkarma;IT;Junior Software Engineer;E00012;53.100,00
+E00152;31.08.2021;;;Operations;Senior Operations Specialist;E00034;50.100,00
+E00153;05.09.2021;15.12.2023;İşten Çıkarma;Customer Support;Specialist Support Agent;E00054;31.200,00
+E00154;20.09.2021;;;Finance;Senior Accountant;E00013;59.400,00
+E00155;24.09.2021;28.03.2023;İstifa;Operations;Specialist Operations Specialist;E00027;39.800,00
+E00156;25.09.2021;;;IT;Senior Software Engineer;E00005;88.000,00
+E00157;30.09.2021;;;HR;Senior HR Specialist;E00017;69.000,00
+E00158;14.10.2021;;;Customer Support;Senior Support Agent;E00057;47.000,00
+E00159;18.10.2021;19.06.2023;İstifa;HR;Specialist HR Specialist;E00010;463.200,00
+E00160;22.10.2021;;;IT;Senior Software Engineer;E00024;121.900,00
+E00161;30.10.2021;07.10.2022;İşten Çıkarma;HR;Junior HR Specialist;E00010;39.300,00
+E00162;08.11.2021;31.01.2022;İstifa;Customer Support;Junior Support Agent;E00033;26.300,00
+E00163;11.11.2021;23.04.2023;İstifa;IT;Junior Software Engineer;E00003;42.300,00
+E00164;12.11.2021;02.02.2025;İstifa;Finance;Specialist Accountant;E00008;59.800,00
+E00165;16.11.2021;02.01.2022;İstifa;Marketing;Junior Marketing Specialist;E00051;42.400,00
+E00166;18.11.2021;;;Customer Support;Senior Support Agent;E99999;43.400,00
+E00167;18.11.2021;;;Operations;Senior Operations Specialist;E00011;55.400,00
+E00168;21.11.2021;;;Sales;Senior Sales Representative;E00023;74.400,00
+E00169;21.11.2021;;;Customer Support;Senior Support Agent;E00055;43.600,00
+E00170;23.11.2021;20.02.2022;İstifa;Sales;Junior Sales Representative;E00031;32.800,00
+E00171;26.11.2021;20.05.2023;İstifa;Operations;Junior Operations Specialist;E00009;36.200,00
+E00172;07.12.2021;02.09.2022;İstifa;Customer Support;Junior Support Agent;E00028;26.900,00
+E00173;23.12.2021;;;Sales;Senior Sales Representative;E00020;62.700,00
+E00174;31.12.2021;30.08.2022;İşten Çıkarma;IT;Junior Software Engineer;E00015;69.700,00
+E00175;31.12.2021;22.05.2024;İstifa;Sales;Specialist Sales Representative;E00031;46.700,00
+E00176;02.01.2022;25.06.2022;İstifa;Operations;Junior Operations Specialist;E00027;30.300,00
+E00177;09.01.2022;16.06.2024;İstifa;IT;Specialist Software Engineer;E00024;68.300,00
+E00178;20.01.2022;22.01.2023;İstifa;Sales;Junior Sales Representative;E00035;-34.900,00
+E00179;21.01.2022;04.05.2023;İşten Çıkarma;Finance;Junior Accountant;E00013;45.900,00
+E00180;22.01.2022;23.09.2024;İstifa;Operations;Specialist Operations Specialist;E00006;39.400,00
+E00181;31.01.2022;01.02.2022;İstifa;Customer Support;Junior Support Agent;E00055;24.100,00
+E00182;04.02.2022;05.01.2022;İşten Çıkarma;Sales;Junior Sales Representative;E00032;35.500,00
+E00183;09.02.2022;15.06.2022;İstifa;Sales;Junior Sales Representative;E00020;38.000,00
+E00184;17.02.2022;26.11.2022;İstifa;Operations;Junior Operations Specialist;E00009;32.400,00
+E00185;01.03.2022;18.12.2024;İstifa;Finance;Specialist Accountant;E00018;60.000,00
+E00186;03.03.2022;;;Customer Support;Senior Support Agent;E00058;50.000,00
+E00187;04.03.2022;01.01.2025;İstifa;Operations;Specialist Operations Specialist;E00011;39.800,00
+E00188;08.03.2022;;;Marketing;Senior Marketing Specialist;E00021;75.700,00
+E00189;09.03.2022;;;Marketing;Senior Marketing Specialist;E00021;67.900,00
+E00190;15.03.2022;01.04.2022;İstifa;Customer Support;Junior Support Agent;E00054;25.200,00
+E00191;24.03.2022;02.03.2024;İstifa;Sales;Specialist Sales Representative;E00002;51.800,00
+E00192;25.03.2022;04.09.2025;İşten Çıkarma;Finance;Specialist Accountant;E00013;-44.100,00
+E00193;27.03.2022;;;Operations;Senior Operations Specialist;E00037;56.400,00
+E00194;28.03.2022;19.10.2023;İşten Çıkarma;Customer Support;Specialist Support Agent;E00033;47.400,00
+E00195;30.03.2022;13.12.2022;İstifa;Operations;Junior Operations Specialist;E00006;24.700,00
+E00196;04.04.2022;05.09.2022;İstifa;Sales;Junior Sales Representative;E00035;43.700,00
+E00197;08.04.2022;;;Sales;Senior Sales Representative;E00032;51.700,00
+E00198;21.04.2022;;;Operations;Senior Operations Specialist;E00016;56.300,00
+E00199;29.04.2022;04.06.2024;İşten Çıkarma;Operations;Specialist Operations Specialist;E00016;46.700,00
+E00200;30.04.2022;;;Sales;Senior Sales Representative;E00038;76.100,00
+E00201;03.05.2022;29.07.2026;İstifa;Sales;Senior Sales Representative;E00002;57.100,00
+E00202;08.05.2022;01.08.2022;İşten Çıkarma;Customer Support;Junior Support Agent;E00055;22.100,00
+E00203;08.05.2022;;;hr;Senior HR Specialist;E00017;57.100,00
+E00204;11.05.2022;23.08.2022;İstifa;Operations;Junior Operations Specialist;E00006;33.400,00
+E00205;11.05.2022;;;Finance;Senior Accountant;E00008;74.100,00
+E00206;14.05.2022;19.09.2023;;Customer Support;Junior Support Agent;E00057;25.800,00
+E00207;15.05.2022;05.11.2022;;Operations;Junior Operations Specialist;E00034;31.600,00
+E00208;21.05.2022;04.04.2023;İşten Çıkarma;Finance;Junior Accountant;E00018;46.500,00
+E00209;28.05.2022;;;Customer Support;Senior Support Agent;E00049;48.100,00
+E00210;29.05.2022;18.09.2023;;Customer Support;Junior Support Agent;E00054;26.200,00
+E00211;08.06.2022;;;Marketing;Senior Marketing Specialist;E00021;58.100,00
+E00212;11.06.2022;;;Customer Support;Senior Support Agent;E00049;53.700,00
+E00213;14.06.2022;04.11.2022;İşten Çıkarma;Operations;Junior Operations Specialist;E00016;22.000,00
+E00214;23.06.2022;29.08.2023;İşten Çıkarma;Operations;Junior Operations Specialist;E00016;35.500,00
+E00215;08.07.2022;22.01.2023;İşten Çıkarma;Customer Support;Junior Support Agent;E00049;23.900,00
+E00216;13.07.2022;;;Customer Support;Senior Support Agent;E00028;44.000,00
+E00217;16.07.2022;16.08.2022;İşten Çıkarma;Operations;Junior Operations Specialist;E00027;28.700,00
+E00218;26.07.2022;04.07.2026;İstifa;Marketing;Specialist Marketing Specialist;E00021;48.100,00
+E00219;30.07.2022;21.08.2022;İşten Çıkarma;Customer Support;Junior Support Agent;E00049;25.700,00
+E00220;31.07.2022;14.10.2022;İşten Çıkarma;IT;Junior Software Engineer;E00015;50.500,00
+E00221;05.08.2022;;;operations;Senior Operations Specialist;E00009;46.900,00
+E00222;05.08.2022;;;IT;Senior Software Engineer;E00004;101.200,00
+E00223;09.08.2022;05.01.2026;İşten Çıkarma;Operations;Specialist Operations Specialist;E00034;35.600,00
+E00224;11.08.2022;31.10.2022;İşten Çıkarma;Customer Support;Junior Support Agent;E00028;30.200,00
+E00225;07.09.2022;07.07.2024;İstifa;Finance;Specialist Accountant;E00008;54.200,00
+E00226;08.09.2022;;;Sales;Senior Sales Representative;E00023;58.100,00
+E00227;14.09.2022;05.11.2022;İşten Çıkarma;IT;Junior Software Engineer;E00015;55.000,00
+E00228;24.09.2022;;;Customer Support;Senior Support Agent;E00028;50.100,00
+E00229;04.10.2022;06.07.2025;İstifa;Sales;Specialist Sales Representative;E00001;40.500,00
+E00230;26.10.2022;;;Finance;Specialist Accountant;E00007;53.400,00
+E00231;26.10.2022;15.02.2026;İstifa;Sales;Specialist Sales Representative;E00035;53.600,00
+E00232;07.11.2022;10.06.2023;İşten Çıkarma;IT;Junior Software Engineer;E00005;46.300,00
+E00233;08.11.2022;09.10.2022;İstifa;Operations;Specialist Operations Specialist;E00011;34.500,00
+E00234;10.11.2022;22.07.2024;İşten Çıkarma;Sales;Specialist Sales Representative;E00032;46.100,00
+E00235;17.11.2022;06.06.2025;İstifa;Sales;Specialist Sales Representative;E00035;39.100,00
+E00236;17.11.2022;23.07.2024;İşten Çıkarma;Sales;Specialist Sales Representative;E00031;33.600,00
+E00237;29.11.2022;;;IT;Specialist Software Engineer;E00012;53.400,00
+E00238;29.11.2022;;;IT;Specialist Software Engineer;E00024;68.300,00
+E00239;30.11.2022;28.11.2023;İstifa;Operations;Junior Operations Specialist;E00027;33.000,00
+E00240;09.12.2022;12.04.2023;İşten Çıkarma;Sales;Junior Sales Representative;E00014;38.800,00
+E00241;18.12.2022;07.09.2024;İstifa;;Specialist Support Agent;E00033;33.700,00
+E00242;24.12.2022;02.01.2023;İstifa;Customer Support;Junior Support Agent;E00028;22.200,00
+E00243;13.01.2023;05.07.2023;İstifa;Sales;Junior Sales Representative;E00023;39.200,00
+E00244;15.01.2023;;;Finance;Specialist Accountant;E00013;63.400,00
+E00245;16.01.2023;07.01.2025;İstifa;Customer Support;Specialist Support Agent;E00245;29.600,00
+E00246;20.01.2023;17.04.2025;İstifa;Sales;Specialist Sales Representative;E00020;50.600,00
+E00247;20.01.2023;01.08.2023;İşten Çıkarma;Sales;Junior Sales Representative;E00038;34.600,00
+E00248;25.01.2023;;;Finance;Specialist Accountant;E00008;56.500,00
+E00249;30.01.2023;24.07.2023;İstifa;Finance;Junior Accountant;E00008;46.200,00
+E00250;30.01.2023;;;Customer Support;Specialist Support Agent;E00058;26.900,00
+E00251;06.02.2023;28.08.2025;İşten Çıkarma;Sales;Specialist Sales Representative;E00038;53.900,00
+E00252;12.02.2023;;;Sales;Specialist Sales Representative;E00019;40.800,00
+E00253;24.02.2023;17.01.2024;İstifa;Sales;Junior Sales Representative;E00032;35.700,00
+E00254;25.02.2023;10.11.2023;İşten Çıkarma;Sales;Junior Sales Representative;E00002;34.100,00
+E00255;11.03.2023;29.03.2023;İstifa;Customer Support;Junior Support Agent;E00033;27.200,00
+E00256;17.03.2023;12.04.2025;İstifa;Operations;Specialist Operations Specialist;E00037;40.200,00
+E00257;22.03.2023;28.04.2023;İstifa;Customer Support;Junior Support Agent;E00054;25.800,00
+E00258;28.03.2023;;;IT;Specialist Software Engineer;E00004;77.400,00
+E00259;30.03.2023;28.09.2024;İstifa;Sales;Specialist Sales Representative;E00035;46.800,00
+E00260;01.04.2023;;;IT;Specialist Software Engineer;E00015;62.300,00
+E00261;07.04.2023;;;Customer Support;Specialist Support Agent;E00058;22.800,00
+E00262;08.04.2023;;;Sales;Specialist Sales Representative;E00002;43.700,00
+E00263;09.04.2023;11.04.2024;İstifa;IT;Junior Software Engineer;E00015;50.500,00
+E00264;11.04.2023;02.11.2023;İşten Çıkarma;Finance;Junior Accountant;E00007;39.800,00
+E00265;16.04.2023;26.03.2025;İstifa;;Specialist Support Agent;E00055;29.000,00
+E00266;16.04.2023;;;Customer Support;Specialist Support Agent;E00049;34.500,00
+E00267;20.04.2023;04.10.2023;İstifa;Marketing;Junior Marketing Specialist;E00021;45.600,00
+E00268;20.04.2023;15.01.2025;İstifa;Customer Support;Specialist Support Agent;E00049;40.400,00
+E00269;21.04.2023;18.03.2025;İstifa;Sales;Specialist Sales Representative;E00031;51.900,00
+E00270;22.04.2023;20.02.2025;İstifa;Operations;Specialist Operations Specialist;E00011;35.100,00
+E00271;26.04.2023;09.07.2023;İşten Çıkarma;Finance;Junior Accountant;E00007;45.600,00
+E00272;11.05.2023;08.10.2023;İstifa;Customer Support;Junior Support Agent;E00057;21.800,00
+E00273;16.05.2023;;;Finance;Specialist Accountant;E00018;60.300,00
+E00274;19.05.2023;;;IT;Specialist Software Engineer;E00004;68.200,00
+E00275;21.05.2023;;İstifa;IT;Specialist Software Engineer;E00015;60.700,00
+E00276;23.05.2023;28.05.2025;İşten Çıkarma;Operations;Specialist Operations Specialist;E00009;37.700,00
+E00277;24.05.2023;31.12.2023;İstifa;IT;Junior Software Engineer;E00012;50.700,00
+E00278;25.05.2023;05.08.2023;İstifa;Operations;Junior Operations Specialist;E00006;28.300,00
+E00279;27.05.2023;;;IT;Specialist Software Engineer;E00005;76.500,00
+E00280;30.05.2023;30.04.2023;İşten Çıkarma;Sales;Junior Sales Representative;E00035;52.500,00
+E00281;31.05.2023;;;Sales;Specialist Sales Representative;E00019;49.900,00
+E00282;08.06.2023;;;Sales;Specialist Sales Representative;E00001;51.300,00
+E00283;11.06.2023;29.06.2025;İstifa;HR;Specialist HR Specialist;E00010;49.200,00
+E00284;15.06.2023;28.12.2025;İstifa;Marketing;Specialist Marketing Specialist;E00021;48.200,00
+E00285;17.06.2023;13.01.2024;İstifa;Operations;Junior Operations Specialist;E00011;39.800,00
+E00286;20.06.2023;18.04.2024;İstifa;Operations;Junior Operations Specialist;E00006;29.200,00
+E00287;24.06.2023;;;IT;Specialist Software Engineer;E00003;68.500,00
+E00288;24.06.2023;25.10.2023;İşten Çıkarma;Operations;Junior Operations Specialist;E00034;30.100,00
+E00289;06.07.2023;20.07.2024;İstifa;Operations;Junior Operations Specialist;E00027;32.800,00
+E00290;08.07.2023;17.08.2024;İstifa;Customer Support;Junior Support Agent;E99999;25.600,00
+E00291;08.07.2023;24.07.2023;İstifa;Sales;Junior Sales Representative;E00032;38.900,00
+E00292;10.07.2023;04.03.2026;İstifa;Sales;Specialist Sales Representative;E00014;38.900,00
+E00293;13.07.2023;;;Finance;Specialist Accountant;E00013;54.600,00
+E00294;20.07.2023;12.08.2025;İstifa;IT;Specialist Software Engineer;E00005;77.000,00
+E00295;22.07.2023;13.08.2023;İşten Çıkarma;IT;Junior Software Engineer;E00015;46.200,00
+E00296;24.07.2023;07.11.2025;İstifa;Sales;Specialist Sales Representative;E00019;41.700,00
+E00297;25.07.2023;14.01.2024;İşten Çıkarma;Customer Support;Junior Support Agent;E00058;30.300,00
+E00298;03.08.2023;14.08.2024;İşten Çıkarma;Operations;Junior Operations Specialist;E00009;32.100,00
+E00299;09.08.2023;;;IT;Specialist Software Engineer;E00015;74.300,00
+E00300;15.08.2023;;;Finance;Specialist Accountant;E00008;42.300,00
+E00301;16.08.2023;;;Operations;Specialist Operations Specialist;E00040;38.900,00
+E00302;22.08.2023;;;IT;Specialist Software Engineer;E00012;56.100,00
+E00303;27.08.2023;;;Sales;Specialist Sales Representative;E00020;38.300,00
+E00304;05.09.2023;;;IT;Specialist Software Engineer;E00015;68.600,00
+E00305;09.09.2023;10.12.2023;İstifa;IT;Junior Software Engineer;E00012;60.200,00
+E00306;13.09.2023;;;Customer Support;Specialist Support Agent;E00057;26.900,00
+E00307;24.09.2023;12.04.2024;İstifa;HR;Junior HR Specialist;E00010;33.800,00
+E00308;25.09.2023;08.01.2026;İşten Çıkarma;Sales;Specialist Sales Representative;E00023;42.200,00
+E00309;07.10.2023;18.01.2024;İstifa;Sales;Junior Sales Representative;E00032;35.600,00
+E00310;08.10.2023;;;IT;Specialist Software Engineer;E00004;55.700,00
+E00311;14.10.2023;;;HR;Specialist HR Specialist;E00010;63.300,00
+E00312;15.10.2023;;;IT;Specialist Software Engineer;E00012;70.100,00
+E00313;17.10.2023;;;Operations;Specialist Operations Specialist;E00040;36.600,00
+E00314;22.10.2023;12.12.2023;İstifa;Finance;Junior Accountant;E00018;41.500,00
+E00315;26.10.2023;11.09.2025;İstifa;Customer Support;Specialist Support Agent;E00057;42.500,00
+E00316;29.10.2023;22.09.2025;;Customer Support;Specialist Support Agent;E00055;42.100,00
+E00317;31.10.2023;08.04.2025;İstifa;IT;Junior Software Engineer;E00004;49.200,00
+E00318;01.11.2023;;;Operations;Specialist Operations Specialist;E00006;39.800,00
+E00319;01.11.2023;;;Sales;Specialist Sales Representative;E00014;52.600,00
+E00320;13.11.2023;;İstifa;Operations;Specialist Operations Specialist;E00009;33.100,00
+E00321;17.11.2023;03.01.2024;İşten Çıkarma;Sales;Junior Sales Representative;E00014;33.700,00
+E00322;18.11.2023;24.06.2026;İstifa;Customer Support;Specialist Support Agent;E00033;37.800,00
+E00323;18.11.2023;01.12.2024;İstifa;Customer Support;Junior Support Agent;E00049;23.600,00
+E00324;18.11.2023;04.06.2025;İşten Çıkarma;Customer Support;Specialist Support Agent;E00055;30.500,00
+E00325;29.11.2023;;;;Specialist Marketing Specialist;E00021;42.700,00
+E00326;02.12.2023;;;Sales;Specialist Sales Representative;E00020;41.200,00
+E00327;04.12.2023;11.08.2024;İşten Çıkarma;Finance;Junior Accountant;E00018;47.900,00
+E00328;05.12.2023;07.05.2024;İşten Çıkarma;Operations;Junior Operations Specialist;E00016;27.600,00
+E00329;05.12.2023;;;Sales;Specialist Sales Representative;E00023;38.600,00
+E00330;15.12.2023;;;operations;Specialist Operations Specialist;E00006;35.300,00
+E00331;16.12.2023;;;Customer Support;Specialist Support Agent;E00054;39.700,00
+E00332;18.12.2023;11.12.2024;İstifa;Sales;Junior Sales Representative;E00020;36.900,00
+E00333;24.12.2023;23.02.2024;İşten Çıkarma;Sales;Junior Sales Representative;E00032;33.700,00
+E00334;29.12.2023;09.01.2024;İstifa;Sales;Junior Sales Representative;E00002;36.800,00
+E00335;08.01.2024;10.07.2026;İstifa;Sales;Specialist Sales Representative;E00031;47.600,00
+E00336;13.01.2024;;;Finance;Specialist Accountant;E00008;55.900,00
+E00337;16.01.2024;;;HR;Specialist HR Specialist;E00010;38.700,00
+E00338;19.01.2024;21.03.2025;İstifa;Sales;Junior Sales Representative;E00002;37.400,00
+E00339;05.02.2024;;;Sales;Specialist Sales Representative;E00031;43.900,00
+E00340;07.02.2024;10.01.2026;İşten Çıkarma;Finance;Specialist Accountant;E00008;61.000,00
+E00341;09.02.2024;14.12.2024;İstifa;Sales;Junior Sales Representative;E00035;30.600,00
+E00342;11.02.2024;;;;Specialist Support Agent;E00033;36.400,00
+E00343;17.02.2024;;;IT;Specialist Software Engineer;E00005;61.300,00
+E00344;17.02.2024;18.01.2025;İşten Çıkarma;Operations;Junior Operations Specialist;E00009;24.800,00
+E00345;21.02.2024;;;Sales;Specialist Sales Representative;E00002;52.900,00
+E00346;23.02.2024;;;Finance;Specialist Accountant;E00008;51.700,00
+E00347;25.02.2024;;;HR;Specialist HR Specialist;E00010;50.300,00
+E00348;29.02.2024;;;HR;Specialist HR Specialist;E00017;47.100,00
+E00349;04.03.2024;;;Operations;Specialist Operations Specialist;E00016;-43.400,00
+E00350;06.03.2024;17.02.2026;İstifa;Sales;Specialist Sales Representative;E99999;51.500,00
+E00351;08.03.2024;22.01.2025;İstifa;Marketing;Junior Marketing Specialist;E00051;45.800,00
+E00352;15.03.2024;21.05.2025;İstifa;Marketing;Junior Marketing Specialist;E00021;43.600,00
+E00353;25.03.2024;;;IT;Specialist Software Engineer;E00012;53.500,00
+E00354;01.04.2024;;;Operations;Specialist Operations Specialist;E00011;31.000,00
+E00355;02.04.2024;10.04.2026;İstifa;Operations;Specialist Operations Specialist;E00027;38.900,00
+E00356;23.04.2024;;;Operations;Specialist Operations Specialist;E00016;33.900,00
+E00357;24.04.2024;;;Finance;Specialist Accountant;E00018;58.200,00
+E00358;28.04.2024;10.07.2025;İstifa;Customer Support;Junior Support Agent;E00058;26.100,00
+E00359;28.04.2024;;;HR;Specialist HR Specialist;E00017;40.500,00
+E00360;09.05.2024;03.07.2025;İstifa;Sales;Junior Sales Representative;E00019;31.800,00
+E00361;16.05.2024;;;IT;Specialist Software Engineer;E00012;56.700,00
+E00362;27.05.2024;;;IT;Specialist Software Engineer;E00015;58.400,00
+E00363;27.05.2024;19.09.2025;İstifa;Sales;Junior Sales Representative;E00002;35.100,00
+E00364;27.05.2024;;;Customer Support;Specialist Support Agent;E00055;34.700,00
+E00365;07.06.2024;;;Sales;Specialist Sales Representative;E00014;52.900,00
+E00366;10.06.2024;;;Marketing;Specialist Marketing Specialist;E00021;44.400,00
+E00367;19.06.2024;;;Sales;Specialist Sales Representative;E00019;42.000,00
+E00368;19.06.2024;20.12.2024;İstifa;Finance;Junior Accountant;E00008;53.100,00
+E00369;22.06.2024;17.04.2026;İşten Çıkarma;Sales;Specialist Sales Representative;E00038;50.100,00
+E00370;24.06.2024;15.07.2024;İstifa;Finance;Junior Accountant;E00018;45.300,00
+E00371;06.07.2024;;;Sales;Specialist Sales Representative;E00031;33.900,00
+E00372;23.07.2024;10.08.2024;İşten Çıkarma;Operations;Junior Operations Specialist;E00027;26.900,00
+E00373;24.07.2024;;;Operations;Specialist Operations Specialist;E00016;38.700,00
+E00374;01.08.2024;07.03.2025;İşten Çıkarma;IT;Junior Software Engineer;E00005;48.400,00
+E00375;01.08.2024;;;Marketing;Specialist Marketing Specialist;E00051;63.600,00
+E00376;07.08.2024;;;IT;Specialist Software Engineer;E00012;65.700,00
+E00377;11.08.2024;16.03.2026;İstifa;Customer Support;Specialist Support Agent;E00028;33.100,00
+E00378;25.08.2024;;;IT;Specialist Software Engineer;E00015;56.900,00
+E00379;26.08.2024;;;Customer Support;Specialist Support Agent;E00055;28.200,00
+E00380;04.09.2024;03.02.2026;İstifa;sales;Junior Sales Representative;E00002;33.200,00
+E00381;16.09.2024;;;IT;Specialist Software Engineer;E00005;60.200,00
+E00382;17.09.2024;;;Operations;Specialist Operations Specialist;E00011;36.900,00
+E00383;19.09.2024;;;Customer Support;Specialist Support Agent;E00049;33.500,00
+E00384;26.09.2024;;;Customer Support;Specialist Support Agent;E99999;32.900,00
+E00385;29.09.2024;;;IT;Specialist Software Engineer;E00003;73.400,00
+E00386;05.10.2024;;;Operations;Specialist Operations Specialist;E00027;32.200,00
+E00387;16.10.2024;26.12.2024;İstifa;Customer Support;Junior Support Agent;E00028;26.300,00
+E00388;18.10.2024;03.09.2025;İstifa;Sales;Junior Sales Representative;E00002;37.000,00
+E00389;20.10.2024;;;Operations;Specialist Operations Specialist;E00037;46.000,00
+E00390;24.10.2024;11.11.2025;İstifa;Operations;Junior Operations Specialist;E00011;29.600,00
+E00391;27.10.2024;19.06.2026;İşten Çıkarma;Customer Support;Specialist Support Agent;E00028;33.300,00
+E00392;27.10.2024;;;Sales;Specialist Sales Representative;E00035;40.700,00
+E00393;30.10.2024;01.02.2025;İstifa;Finance;Junior Accountant;E00013;46.300,00
+E00394;31.10.2024;05.06.2026;İstifa;HR;Specialist HR Specialist;E00010;50.300,00
+E00395;06.11.2024;24.05.2025;İstifa;Operations;Junior Operations Specialist;E00037;28.200,00
+E00396;07.11.2024;;;Finance;Specialist Accountant;E00018;52.100,00
+E00397;10.11.2024;;;IT;Specialist Software Engineer;E00005;64.700,00
+E00398;11.11.2024;;;HR;Specialist HR Specialist;E00017;51.500,00
+E00399;22.11.2024;;;HR;Specialist HR Specialist;E00010;41.700,00
+E00400;22.11.2024;07.10.2025;İstifa;Customer Support;Junior Support Agent;E00028;28.500,00
+E00401;21.12.2024;24.06.2026;İstifa;Sales;Specialist Sales Representative;E00001;518.400,00
+E00402;03.01.2025;;;HR;Specialist HR Specialist;E00010;60.400,00
+E00403;07.01.2025;20.09.2025;İstifa;Customer Support;Junior Support Agent;E00028;30.500,00
+E00404;09.01.2025;;;Sales;Specialist Sales Representative;E00002;42.800,00
+E00405;16.01.2025;;;Sales;Specialist Sales Representative;E00038;41.700,00
+E00406;16.01.2025;;;Finance;Specialist Accountant;E00008;74.100,00
+E00407;22.01.2025;;;Customer Support;Specialist Support Agent;E00028;34.500,00
+E00408;29.11.2026;;;Customer Support;Specialist Support Agent;E00028;34.300,00
+E00409;24.01.2025;21.03.2026;İstifa;Customer Support;Junior Support Agent;E00057;24.300,00
+E00410;28.01.2025;29.07.2025;İstifa;operations;Junior Operations Specialist;E00040;29.900,00
+E00411;10.02.2025;;;;Specialist Operations Specialist;E00016;41.900,00
+E00412;14.02.2025;;;Finance;Specialist Accountant;E00007;59.200,00
+E00413;18.02.2025;11.07.2026;İşten Çıkarma;Operations;Junior Operations Specialist;E00037;27.500,00
+E00414;18.02.2025;;;;Specialist Support Agent;E00049;37.200,00
+E00415;20.02.2025;02.06.2025;İstifa;Customer Support;Junior Support Agent;E00054;26.600,00
+E00416;21.02.2025;27.05.2025;İşten Çıkarma;Finance;Junior Accountant;E00007;39.200,00
+E00417;08.03.2025;;;Marketing;Specialist Marketing Specialist;E00051;56.400,00
+E00418;10.03.2025;26.08.2025;İşten Çıkarma;Operations;Junior Operations Specialist;E00037;29.800,00
+E00419;17.03.2025;01.05.2025;İşten Çıkarma;IT;Junior Software Engineer;E00004;57.200,00
+E00420;17.03.2025;;;Customer Support;Specialist Support Agent;E00054;29.900,00
+E00421;25.03.2025;17.02.2026;İşten Çıkarma;Customer Support;Junior Support Agent;E00054;26.700,00
+E00422;26.03.2025;;;Sales;Specialist Sales Representative;E00019;36.900,00
+E00423;03.04.2025;;;Customer Support;Junior Support Agent;E00028;26.800,00
+E00424;20.04.2025;;;Marketing;Junior Marketing Specialist;E00051;33.300,00
+E00425;27.04.2025;03.06.2026;İstifa;Operations;Junior Operations Specialist;E00037;31.000,00
+E00426;04.05.2025;;;Customer Support;Junior Support Agent;E00049;18.800,00
+E00427;06.05.2025;;;IT;Junior Software Engineer;E00005;51.600,00
+E00428;11.05.2025;;;Marketing;Junior Marketing Specialist;E00051;43.700,00
+E00429;29.11.2026;;;Sales;Junior Sales Representative;E00014;38.200,00
+E00430;14.05.2025;;;IT;Junior Software Engineer;E00003;60.100,00
+E00431;15.05.2025;;;IT;Junior Software Engineer;E00005;45.600,00
+E00432;04.06.2025;29.09.2025;;Customer Support;Junior Support Agent;E00033;31.000,00
+E00433;16.06.2025;;;Sales;Junior Sales Representative;E00001;43.700,00
+E00434;24.06.2025;;;Sales;Junior Sales Representative;E00038;31.100,00
+E00435;02.07.2025;14.09.2026;İstifa;Sales;Junior Sales Representative;E00014;32.700,00
+E00436;09.07.2025;;;IT;Junior Software Engineer;E00012;48.500,00
+E00437;10.07.2025;;;it;Junior Software Engineer;E00005;51.800,00
+E00438;20.07.2025;;;Customer Support;Junior Support Agent;E00049;26.200,00
+E00439;21.07.2025;;;HR;Junior HR Specialist;E00017;28.500,00
+E00440;22.07.2025;;;Sales;Junior Sales Representative;E00023;38.700,00
+E00441;24.07.2025;;;Finance;Junior Accountant;E00008;42.600,00
+E00442;28.07.2025;;;IT;Junior Software Engineer;E00012;45.900,00
+E00443;14.08.2025;;;Customer Support;Junior Support Agent;E00028;28.700,00
+E00444;16.08.2025;;;Sales;Junior Sales Representative;E00035;34.500,00
+E00445;24.08.2025;;;Operations;Junior Operations Specialist;E00037;34.900,00
+E00446;27.08.2025;;;IT;Junior Software Engineer;E00015;55.400,00
+E00447;02.09.2025;;;Customer Support;Junior Support Agent;E00054;24.600,00
+E00448;03.09.2025;;;Finance;Junior Accountant;E00018;50.700,00
+E00449;16.09.2025;;;Customer Support;Junior Support Agent;E00058;338.400,00
+E00450;17.09.2025;;;Sales;Junior Sales Representative;E00023;-33.800,00
+E00451;21.09.2025;;;Sales;Junior Sales Representative;E00020;29.600,00
+E00452;21.09.2025;;;Operations;Junior Operations Specialist;E00040;28.400,00
+E00453;25.09.2025;;;Sales;Junior Sales Representative;E00023;38.800,00
+E00454;27.09.2025;;;Operations;Junior Operations Specialist;E00009;29.500,00
+E00455;03.10.2025;;;Sales;Junior Sales Representative;E00020;44.500,00
+E00456;09.10.2025;;;Sales;Junior Sales Representative;E00023;37.100,00
+E00457;11.10.2025;;;Sales;Junior Sales Representative;E00032;36.800,00
+E00458;13.10.2025;;;HR;Junior HR Specialist;E00010;40.300,00
+E00459;23.10.2025;;;HR;Junior HR Specialist;E00010;34.500,00
+E00460;27.10.2025;;;Operations;Junior Operations Specialist;E00034;29.900,00
+E00461;03.11.2025;27.11.2025;İstifa;Operations;Junior Operations Specialist;E00009;28.000,00
+E00462;04.11.2025;;;it;Junior Software Engineer;E00004;39.100,00
+E00463;14.11.2025;20.06.2026;İstifa;Customer Support;Junior Support Agent;E00057;20.600,00
+E00464;06.12.2025;;;Finance;Junior Accountant;E00018;48.100,00
+E00465;08.12.2025;;;Marketing;Junior Marketing Specialist;E00051;37.900,00
+E00466;15.12.2025;;;Operations;Junior Operations Specialist;E00016;29.900,00
+E00467;17.12.2025;;;Sales;Junior Sales Representative;E00014;30.100,00
+E00468;06.01.2026;28.01.2026;İşten Çıkarma;IT;Junior Software Engineer;E00015;48.400,00
+E00469;09.01.2026;;;Finance;Junior Accountant;E00007;48.300,00
+E00470;11.01.2026;;İstifa;IT;Junior Software Engineer;E00024;52.600,00
+E00471;14.01.2026;28.09.2026;İşten Çıkarma;Customer Support;Junior Support Agent;E00033;24.000,00
+E00472;21.01.2026;;;Sales;Junior Sales Representative;E00023;43.300,00
+E00473;30.01.2026;30.01.2026;İşten Çıkarma;Operations;Junior Operations Specialist;E00009;30.200,00
+E00474;01.02.2026;;;Finance;Junior Accountant;E00013;42.100,00
+E00475;08.02.2026;;;Customer Support;Junior Support Agent;E00028;29.400,00
+E00476;13.03.2026;;;Customer Support;Junior Support Agent;E00058;20.700,00
+E00477;13.03.2026;;;Sales;Junior Sales Representative;E00031;38.500,00
+E00478;19.03.2026;;;Customer Support;Junior Support Agent;E00033;22.400,00
+E00479;28.03.2026;;;Operations;Junior Operations Specialist;E00037;27.600,00
+E00480;04.04.2026;;;Finance;Junior Accountant;E00018;40.500,00
+E00481;04.04.2026;;;Sales;Junior Sales Representative;E00038;36.500,00
+E00482;09.04.2026;;;Finance;Junior Accountant;E00008;44.500,00
+E00483;12.04.2026;;;Operations;Junior Operations Specialist;E00006;31.500,00
+E00484;19.04.2026;;;IT;Junior Software Engineer;E00004;53.300,00
+E00485;23.04.2026;;;Sales;Junior Sales Representative;E00020;42.600,00
+E00486;25.04.2026;;;Finance;Junior Accountant;E00018;53.900,00
+E00487;25.04.2026;;;IT;Junior Software Engineer;E00005;56.600,00
+E00488;25.04.2026;;;Operations;Junior Operations Specialist;E00011;33.300,00
+E00489;28.04.2026;06.06.2026;İşten Çıkarma;Customer Support;Junior Support Agent;E00058;24.400,00
+E00490;01.05.2026;31.08.2026;İşten Çıkarma;Sales;Junior Sales Representative;E00001;31.500,00
+E00491;02.05.2026;;;IT;Junior Software Engineer;E00005;55.800,00
+E00492;14.05.2026;;;Marketing;Junior Marketing Specialist;E00021;40.100,00
+E00493;14.05.2026;;;Operations;Junior Operations Specialist;E00037;33.700,00
+E00494;20.05.2026;;;Finance;Junior Accountant;E00008;35.300,00
+E00495;21.05.2026;;;HR;Junior HR Specialist;E00017;53.100,00
+E00496;23.05.2026;;;Finance;Junior Accountant;E00007;37.700,00
+E00497;27.05.2026;;;IT;Junior Software Engineer;E00003;52.200,00
+E00498;07.06.2026;16.06.2026;İstifa;Operations;Junior Operations Specialist;E00498;34.300,00
+E00499;08.06.2026;;;customer support;Junior Support Agent;E00033;21.600,00
+E00500;09.06.2026;;;Marketing;Junior Marketing Specialist;E00021;37.400,00
+E00501;18.06.2026;;;Operations;Junior Operations Specialist;E00016;23.800,00
+E00502;27.06.2026;;;Customer Support;Junior Support Agent;E00054;21.500,00
+E00503;28.06.2026;;;marketing;Junior Marketing Specialist;E00051;31.600,00
+E00504;06.07.2026;;;Marketing;Junior Marketing Specialist;E00051;40.500,00
+E00505;09.07.2026;;;Operations;Junior Operations Specialist;E00034;31.500,00
+E00506;11.07.2026;;İstifa;HR;Junior HR Specialist;E00010;36.900,00
+E00507;18.07.2026;;;;Junior Sales Representative;E00035;41.900,00
+E00508;25.07.2026;;;Sales;Junior Sales Representative;E00038;42.600,00
+E00509;31.07.2026;;;IT;Junior Software Engineer;E00015;51.900,00
+E00510;01.08.2026;;;Sales;Junior Sales Representative;E00014;35.000,00
+E00511;03.08.2026;;;Operations;Junior Operations Specialist;E00009;29.400,00
+E00512;11.08.2026;;;Customer Support;Junior Support Agent;E00054;24.200,00
+E00513;22.08.2026;;İstifa;Sales;Junior Sales Representative;E00001;42.200,00
+E00514;03.09.2026;;;Sales;Junior Sales Representative;E00002;37.000,00
+E00515;14.09.2026;;;Operations;Junior Operations Specialist;E00040;29.200,00
+E00516;16.09.2026;;;Operations;Junior Operations Specialist;E00027;29.600,00
+E00517;23.09.2026;;;Operations;Junior Operations Specialist;E00009;32.500,00
+E00518;24.09.2026;;;Customer Support;Junior Support Agent;E00049;24.400,00
+E00223;09.08.2022;05.01.2026;İşten Çıkarma;Operations;Specialist Operations Specialist;E00034;35.600,00
+E00483;12.04.2026;;;Operations;Junior Operations Specialist;E00006;31.500,00
+E00146;04.08.2021;;;Sales;Senior Sales Representative;E00032;60.400,00
+E00072;14.06.2020;27.02.2025;İşten Çıkarma;Customer Support;Senior Support Agent;E00049;45.200,00
+E00274;19.05.2023;;;IT;Specialist Software Engineer;E00004;68.200,00
+E00467;17.12.2025;;;Sales;Junior Sales Representative;E00014;30.100,00
+E00091;09.10.2020;;;Operations;Senior Operations Specialist;E00006;49.200,00
+E00284;15.06.2023;28.12.2025;İstifa;Marketing;Specialist Marketing Specialist;E00021;48.200,00
+E00124;21.03.2021;25.11.2024;İstifa;Sales;Specialist Sales Representative;E00019;44.600,00
+E00199;29.04.2022;04.06.2024;İşten Çıkarma;Operations;Specialist Operations Specialist;E00016;46.700,00

@@ -1,0 +1,19 @@
+company: Örnek A.Ş.
+columns:
+  employee_id: "Sicil No"
+  hire_date: "İşe Giriş Tarihi"
+  termination_date: "Çıkış Tarihi"
+  termination_type: "Çıkış Nedeni"
+  department: "Departman"
+  job_title: "Unvan"
+  manager_id: "Yönetici Sicil No"
+  monthly_salary: "Brüt Maaş"
+date_format: "%d.%m.%Y"
+numbers:
+  decimal: ","
+  thousands: "."
+termination_type_map:
+  voluntary: ["İstifa", "Emekli"]
+  involuntary: ["İşten Çıkarma", "Deneme Süresi", "Fesih"]
+defaults:
+  fte: 1.0
