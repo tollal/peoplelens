@@ -829,3 +829,12 @@ PeopleLens'in uzun vadeli amacı:
 
 ## Lisans
 
+MIT
+
+---
+
+<div align="center">
+
+**Tolga tarafından geliştirilmiştir.**
+
+</div>
