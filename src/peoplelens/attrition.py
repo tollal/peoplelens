@@ -72,3 +72,32 @@ def retention_table(
     first = f"retention_{months[0]}m"
     rest = table.iloc[1:].sort_values(first)
     return pd.concat([table.iloc[:1], rest], ignore_index=True)
+
+def retention_curves(
+    df: pd.DataFrame,
+    as_of,
+    cohort_start,
+    by: str = "department",
+    groups=None,
+    event_type: str | None = None,
+    step: int = 30,
+    max_days: int = 1095,
+    min_at_risk: int = 20,
+) -> pd.DataFrame:
+    """Grafik için elde tutma eğrileri: satırlar gün (step aralıklı), sütunlar gruplar.
+
+    Bir ufukta 20'den az kişi gözlenmişse o noktadan sonrası boş (NaN) bırakılır.
+    """
+    x, dur, ev = _cohort(df, as_of, cohort_start, event_type)
+    days = list(range(0, max_days + 1, step))
+    members = {"All": x.index}
+    for key, idx in x.groupby(by).groups.items():
+        members[key] = idx
+    out = {}
+    for key, idx in members.items():
+        if groups is not None and key not in groups:
+            continue
+        d, e = dur.loc[idx], ev.loc[idx]
+        curve = kaplan_meier(d, e)
+        out[key] = [survival_at(curve, t) if (d >= t).sum() >= min_at_risk else float("nan") for t in days]
+    return pd.DataFrame(out, index=pd.Index(days, name="day"))
